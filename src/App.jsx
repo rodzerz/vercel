@@ -1,14 +1,16 @@
-import Translations from './components/Translations';
-import FunctionalFeature from "./components/FunctionalFeature";
-import UserStory from "./components/UserStory";
-import Scenarios from "./components/Scenarios";
-import RubiksCube from "./components/RubiksCube";
-import HappyPath from "./components/HappyPath";
 function App() {
   return (
     <div>
+      <a
+        href="https://docs.google.com/document/d/1Vjl3TcUEoplOriqOJ-7MXdO1XuU1y33Pzv-pKyrBg9E/edit?tab=t.0"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Atvērt Google Docs
+      </a>
+
       <Translations />
-         <FunctionalFeature />
+      <FunctionalFeature />
       <UserStory />
       <Scenarios />
       <RubiksCube />
@@ -16,5 +18,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
